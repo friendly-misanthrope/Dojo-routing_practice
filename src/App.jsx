@@ -12,7 +12,7 @@ function App() {
         <Route path='/' element={<GoHome />} />
         <Route path='/home' element={<Home />} />
         <Route path='/:hello' element={<DisplayParameters />} />
-        {/* <Route /> */}
+        <Route path='/:hello/:txtColor/:bgColor' element={<DisplayParameters />} />
         
       </Routes>
       

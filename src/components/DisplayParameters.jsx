@@ -10,12 +10,17 @@ const DisplayParameters = (props) => {
         isNaN(hello) ?
         <h3 style={
           txtColor ? 
-          {color: txtColor, bgColor: bgColor}
+          {color: txtColor, backgroundColor: bgColor}
           : null
         }>
 
           The word is: {hello}</h3>
-        : <h3>The number is: {hello}</h3>
+        : <h3 style={
+          txtColor ?
+          {color:txtColor, backgroundColor:bgColor}
+          :null
+          
+        }>The number is: {hello}</h3>
       }
     </div>
   );
