@@ -11,7 +11,7 @@ function App() {
       <Routes>
         <Route path='/' element={<GoHome />} />
         <Route path='/home' element={<Home />} />
-        <Route path='/:word' element={<DisplayParameters />} />
+        <Route path='/:hello' element={<DisplayParameters />} />
         {/* <Route /> */}
         
       </Routes>
